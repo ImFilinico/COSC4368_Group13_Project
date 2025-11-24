@@ -1,0 +1,114 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Data files (IMPORTANT: Don't commit large datasets!)
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+data/
+datasets/
+chest_xray_data/
+images/
+*.zip
+*.tar
+*.tar.gz
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.ckpt
+*.weights
+checkpoints/
+models/
+saved_models/
+
+# Logs and outputs
+logs/
+*.log
+tensorboard/
+runs/
+wandb/
+
+# Results and figures
+results/
+outputs/
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Cache
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+
+# Large files
+*.avi
+*.mp4
